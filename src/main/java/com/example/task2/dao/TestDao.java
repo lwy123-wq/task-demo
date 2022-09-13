@@ -15,9 +15,6 @@ public class TestDao{
     public void saveDate(int id,String name){
         repository.addDate(id,name);
         log.info("添加成功..........");
-
     }
-
-
 }
 
