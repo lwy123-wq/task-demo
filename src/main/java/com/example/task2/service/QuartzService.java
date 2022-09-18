@@ -9,6 +9,7 @@ import java.util.List;
 
 @Service
 public class QuartzService {
+
     @Autowired
     private QuartzDao quartzDao;
     public List<User> select(){
